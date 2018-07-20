@@ -205,7 +205,7 @@ public class iface {
 		int a;
 		for(a = 0; a < Max; a++)
 		{
-			if(userEmail[a].equals(Name))
+			if(userId[a] != -1 && userEmail[a].equals(Name))
 			{
 				return a;
 			}
