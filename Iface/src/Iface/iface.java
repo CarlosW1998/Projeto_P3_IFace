@@ -301,7 +301,7 @@ public class iface {
 			if(mensagerTarget[a] == userId[currentUser])
 			{
 				k++;
-				System.out.println("De: " + userName[currentUser] + ";\n" + mensagerData[a] + "\n");
+				System.out.println("De: " + userName[mensagerOrigin[a]] + ";\n" + mensagerData[a] + "\n");
 			}
 		}
 		System.out.println("\n\n");
