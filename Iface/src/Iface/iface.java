@@ -509,7 +509,7 @@ public class iface {
 			else if(opition == 10)
 			{
 				printBreakLine();
-				UserDetail();
+				DeleteUser();
 			}
 			else {
 				return ;
