@@ -456,7 +456,7 @@ public class iface {
 		int opition;
 		while(true)
 		{
-			System.out.println("Seja Bem Vindo ao IFace "+ userName[currentUser]+ " \nTecle 1 Para Editar o Perfil de Usuario\nTecle 2 Para Adicionar um Amigo\nTecle 3 Para Verificar suas Solicitacoes de Amizade\nTecle 4 Para Enviar uma Mensagem para Algum Usuario\nTecle 5 para ver suas mensagens\nTecle 6 para Criar uma comunidade\nTecle 7 para ver a lista de comunidades\nTecle 8 para Ver Suas Comunidades\nTecle 9 Para Obter Informacoes Do Seu Usuario\nTecle 10 para Deletar o Usuario\n Pressione 11 para Sair");
+			System.out.println("Seja Bem Vindo ao IFace "+ userName[currentUser]+ " \nTecle 1 Para Editar o Perfil de Usuario\nTecle 2 Para Adicionar um Amigo\nTecle 3 Para Verificar suas Solicitacoes de Amizade\nTecle 4 Para Enviar uma Mensagem para Algum Usuario\nTecle 5 para ver suas mensagens\nTecle 6 para Criar uma comunidade\nTecle 7 para ver a lista de comunidades\nTecle 8 para Ver Suas Comunidades\nTecle 9 Para Obter Informacoes Do Seu Usuario\nTecle 10 para Deletar o Usuario\nPressione 11 para Sair");
 			opition = scan.nextInt();
 			scan.nextLine();
 			if(opition == 1)
@@ -510,6 +510,7 @@ public class iface {
 			{
 				printBreakLine();
 				DeleteUser();
+				return ;
 			}
 			else {
 				return ;
