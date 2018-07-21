@@ -275,7 +275,7 @@ public class iface {
 	}
 	public static void SeeMensagerList()
 	{
-		int a;
+		int a, k = 0;
 		System.out.println("Tecle -1 para sair");
 		System.out.println("Usuaios:");
 		for(a = 0; a < Max; a++)
@@ -283,7 +283,13 @@ public class iface {
 			if(a != currentUser && userId[a] != -1)
 			{
 				System.out.println("Tecle " + a + " Para enviar uma mensagem para:" + userName[a]);
+				k++;
 			}
+		}
+		if(k == 0)
+		{
+			System.out.println("Nao existem usuarios para enviar mensagens");
+			return ;
 		}
 		int opition = scan.nextInt();
 		if(opition == -1) return ;
